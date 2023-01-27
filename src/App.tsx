@@ -75,12 +75,12 @@ const App = () => {
               gameStart={gameStart}/>
               <div>
                 <LostFigures 
-                    title="White Figure"
+                    title="White Figures"
                     figures={board.lostWhiteFigures}
                     setGameOver={setGameOver}
                     setStartGame={setGameStart}/>
                 <LostFigures 
-                  title="Black Figure"
+                  title="Black Figures"
                   figures={board.lostBlackFigures}
                   setGameOver={setGameOver}
                   setStartGame={setGameStart}/>
